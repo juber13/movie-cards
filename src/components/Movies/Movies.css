@@ -1,0 +1,50 @@
+
+.moviesList{
+    max-width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 15px;
+
+
+}
+
+.movie{
+    width: 80%;
+    height: auto;
+    display: flex;
+    gap: 10px;
+    transition:0.4s ease;
+    /* position: relative; */
+    background-color: rgba(34, 33, 33, 0.9);
+    /* background-color: red; */
+    padding: 15px;
+    border-radius: 0.2rem;
+}
+
+.movie .title{
+    color: #ddd;
+}
+
+
+
+.movie img{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    object-fit: fill;
+    /* border-radius: 0.4rem; */
+    cursor: pointer;
+}
+
+
+.movie:hover {
+    transform: scale(1.1);
+}
+
+h2{
+    font-size: 2rem;
+}
